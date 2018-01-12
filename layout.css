@@ -10,13 +10,13 @@
   animation-duration: 10s;
 }
 
-ul {
+#this {
   width: 80%;
   margin: 0 auto;
   padding: 0;
 }
 
-ul li {
+#this #looks {
   list-style-type: none;
   display: inline-block;
   padding: 20px;
@@ -24,15 +24,15 @@ ul li {
 
 
 
-ul li a {
-  color: #000;
+#this #looks #nice {
+  color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
 /* Animation */
 
+
 @keyframes cool {
     from {background-color: black;}
     to {background-color: gold;}
-
