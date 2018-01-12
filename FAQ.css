@@ -87,7 +87,7 @@ ul{
 }
 
 .g_ span{
-	position: absolute;
+	position: fixed;
 	visibility: hidden;
 	border: 1px solid black;
 	text-align: center;
@@ -96,7 +96,7 @@ ul{
 }
 .g_:hover, .g_:hover span { 
 	visibility: visible;
-	top:200px; left:750px; 
+	top:250px; left:750px; 
 	color: black;
 	z-index:1;
 }
