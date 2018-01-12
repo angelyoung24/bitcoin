@@ -1,0 +1,109 @@
+h1{
+	margin: 0 auto;
+	font-size: 3em;
+	color: blue;
+	text-align: center;
+}
+
+h3{
+	font-size: 2em;
+}
+
+h4{
+	margin: 0 auto;
+	font-size: 1em;
+	color: #646464;
+	text-align: center;
+	padding: 10px;
+}
+
+h6{
+	margin: 0 auto;
+	font-size: 1.5em;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.wrapper{
+	margin-left: 50px;
+}
+
+.table_{
+	width: 550px;
+	height: auto;
+	border: 3px dashed blue;
+	background-color: lightgrey;
+}
+
+ul{
+	list-style-type: none;
+	color: #2c6fad;
+}
+
+#g1:hover{
+	color: #63a4e1
+}
+#g2:hover{
+	color: #63a4e1
+}
+#g3:hover{
+	color: #63a4e1
+}
+#g4:hover{
+	color: #63a4e1
+}
+#g5:hover{
+	color: #63a4e1
+}
+#g6:hover{
+	color: #63a4e1
+}
+#g7:hover{
+	color: #63a4e1
+}
+#g8:hover{
+	color: #63a4e1
+}
+#g9:hover{
+	color: #63a4e1
+}
+#g10:hover{
+	color: #63a4e1
+}
+#g11:hover{
+	color: #63a4e1
+}
+#g12:hover{
+	color: #63a4e1
+}
+#g13:hover{
+	color: #63a4e1
+}
+#g14:hover{
+	color: #63a4e1
+}
+#g15:hover{
+	color: #63a4e1
+}
+
+.g_ span{
+	position: fixed;
+	visibility: hidden;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+	width: 600px;
+}
+.g_:hover, .g_:hover span { 
+	visibility: visible;
+	top:250px; left:750px; 
+	color: black;
+	z-index:1;
+}
+#title_{
+	font-size: 2em;
+	text-align: center;
+}
+ul li{
+	padding: 5px 0px;
+}
