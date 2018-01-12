@@ -184,50 +184,60 @@
 			</ul>
 			<h6>Transactions</h6>
 			<ul>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">Why do I have to wait for confirmation?
+						<span><p id="title_">Why do I have to wait for confirmation?</p>Receiving notification of a payment is almost instant with Bitcoin. However, there is a delay before the network begins to confirm your transaction by including it in a block. A confirmation means that there is a consensus on the network that the bitcoins you received haven't been sent to anyone else and are considered your property. Once your transaction has been included in one block, it will continue to be buried under every block after it, which will exponentially consolidate this consensus and decrease the risk of a reversed transaction. Each confirmation takes between a few seconds and 90 minutes, with 10 minutes being the average. If the transaction pays too low a fee or is otherwise atypical, getting the first confirmation can take much longer. Every user is free to determine at what point they consider a transaction sufficiently confirmed, but 6 confirmations is often considered to be as safe as waiting 6 months on a credit card transaction.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">How much will the transaction fee be?
+						<span><p id="title_">How much will the transaction fee be?</p>Transactions can be processed without fees, but trying to send free transactions can require waiting days or weeks. Although fees may increase over time, normal fees currently only cost a tiny amount. By default, all Bitcoin wallets listed on Bitcoin.org add what they think is an appropriate fee to your transactions; most of those wallets will also give you chance to review the fee before sending the transaction.
+
+						Transaction fees are used as a protection against users sending transactions to overload the network and as a way to pay miners for their work helping to secure the network. The precise manner in which fees work is still being developed and will change over time. Because the fee is not related to the amount of bitcoins being sent, it may seem extremely low or unfairly high. Instead, the fee is relative to the number of bytes in the transaction, so using multisig or spending multiple previously-received amounts may cost more than simpler transactions. If your activity follows the pattern of conventional transactions, you won't have to pay unusually high fees.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">What if I receive a bitcoin when my computer is powered off?
+						<span><p id="title_">What if I receive a bitcoin when my computer is powered off?</p>This works fine. The bitcoins will appear next time you start your wallet application. Bitcoins are not actually received by the software on your computer, they are appended to a public ledger that is shared between all the devices on the network. If you are sent bitcoins when your wallet client program is not running and you later launch it, it will download blocks and catch up with any transactions it did not already know about, and the bitcoins will eventually appear as if they were just received in real time. Your wallet is only needed when you wish to spend bitcoins.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">What does "synchronizing" mean and why does it take so long?
+						<span><p id="title_">What does "synchronizing" mean and why does it take so long?</p>Long synchronization time is only required with full node clients like Bitcoin Core. Technically speaking, synchronizing is the process of downloading and verifying all previous Bitcoin transactions on the network. For some Bitcoin clients to calculate the spendable balance of your Bitcoin wallet and make new transactions, it needs to be aware of all previous transactions. This step can be resource intensive and requires sufficient bandwidth and storage to accommodate the full size of the block chain. For Bitcoin to remain secure, enough people should keep using full node clients because they perform the task of validating and relaying transactions.</span>
 					</div></li>
 			</ul>
 			<h6>Mining</h6>
 			<ul>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">What is Bitcoin mining?
+						<span><p id="title_">What is Bitcoin mining?</p>Mining is the process of spending computing power to process transactions, secure the network, and keep everyone in the system synchronized together. It can be perceived like the Bitcoin data center except that it has been designed to be fully decentralized with miners operating in all countries and no individual having control over the network. This process is referred to as "mining" as an analogy to gold mining because it is also a temporary mechanism used to issue new bitcoins. Unlike gold mining, however, Bitcoin mining provides a reward in exchange for useful services required to operate a secure payment network. Mining will still be required after the last bitcoin is issued.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">How does Bitcoin mining work?
+						<span><p id="title_">How does Bitcoin mining work?</p>Anybody can become a Bitcoin miner by running software with specialized hardware. Mining software listens for transactions broadcast through the peer-to-peer network and performs appropriate tasks to process and confirm these transactions. Bitcoin miners perform this work because they can earn transaction fees paid by users for faster transaction processing, and newly created bitcoins issued into existence according to a fixed formula.
+
+						For new transactions to be confirmed, they need to be included in a block along with a mathematical proof of work. Such proofs are very hard to generate because there is no way to create them other than by trying billions of calculations per second. This requires miners to perform these calculations before their blocks are accepted by the network and before they are rewarded. As more people start to mine, the difficulty of finding valid blocks is automatically increased by the network to ensure that the average time to find a block remains equal to 10 minutes. As a result, mining is a very competitive business where no individual miner can control what is included in the block chain.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">Isn't Bitcoin mining a waste of energy?
+						<span><p id="title_">Isn't Bitcoin mining a waste of energy?</p>Spending energy to secure and operate a payment system is hardly a waste. Like any other payment service, the use of Bitcoin entails processing costs. Services necessary for the operation of currently widespread monetary systems, such as banks, credit cards, and armored vehicles, also use a lot of energy. Although unlike Bitcoin, their total energy consumption is not transparent and cannot be as easily measured.
+
+						Bitcoin mining has been designed to become more optimized over time with specialized hardware consuming less energy, and the operating costs of mining should continue to be proportional to demand. When Bitcoin mining becomes too competitive and less profitable, some miners choose to stop their activities. Furthermore, all energy expended mining is eventually transformed into heat, and the most profitable miners will be those who have put this heat to good use. An optimally efficient mining network is one that isn't actually consuming any extra energy. While this is an ideal, the economics of mining are such that miners individually strive toward it.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">How does mining help secure Bitcoin?
+						<span><p id="title_">How does mining help secure Bitcoin?</p>Mining creates the equivalent of a competitive lottery that makes it very difficult for anyone to consecutively add new blocks of transactions into the block chain. This protects the neutrality of the network by preventing any individual from gaining the power to block certain transactions. This also prevents any individual from replacing parts of the block chain to roll back their own spends, which could be used to defraud other users. Mining makes it exponentially more difficult to reverse a past transaction by requiring the rewriting of all blocks following this transaction.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">What do I need to start mining?
+						<span><p id="title_">What do I need to start mining?</p>In the early days of Bitcoin, anyone could find a new block using their computer's CPU. As more and more people started mining, the difficulty of finding new blocks increased greatly to the point where the only cost-effective method of mining today is using specialized hardware. You can visit BitcoinMining.com for more information.</span>
 					</div></li>
 			</ul>
 			<h6>Security</h6>
 			<ul>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">Is Bitcoin secure?
+						<span><p id="title_">Is Bitcoin secure?</p>The Bitcoin technology - the protocol and the cryptography - has a strong security track record, and the Bitcoin network is probably the biggest distributed computing project in the world. Bitcoin's most common vulnerability is in user error. Bitcoin wallet files that store the necessary private keys can be accidentally deleted, lost or stolen. This is pretty similar to physical cash stored in a digital form. Fortunately, users can employ sound security practices to protect their money or use service providers that offer good levels of security and insurance against theft or loss.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">Hasn't Bitcoin been hacked in the past?
+						<span><p id="title_">Hasn't Bitcoin been hacked in the past?</p>The rules of the protocol and the cryptography used for Bitcoin are still working years after its inception, which is a good indication that the concept is well designed. However, security flaws have been found and fixed over time in various software implementations. Like any other form of software, the security of Bitcoin software depends on the speed with which problems are found and fixed. The more such issues are discovered, the more Bitcoin is gaining maturity.
+
+						There are often misconceptions about thefts and security breaches that happened on diverse exchanges and businesses. Although these events are unfortunate, none of them involve Bitcoin itself being hacked, nor imply inherent flaws in Bitcoin; just like a bank robbery doesn't mean that the dollar is compromised. However, it is accurate to say that a complete set of good practices and intuitive security solutions is needed to give users better protection of their money, and to reduce the general risk of theft and loss. Over the course of the last few years, such security features have quickly developed, such as wallet encryption, offline wallets, hardware wallets, and multi-signature transactions.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">Could users collude against Bitcoin?
+						<span><p id="title_">Could users collude against Bitcoin?</p>It is not possible to change the Bitcoin protocol that easily. Any Bitcoin client that doesn't comply with the same rules cannot enforce their own rules on other users. As per the current specification, double spending is not possible on the same block chain, and neither is spending bitcoins without a valid signature. Therefore, It is not possible to generate uncontrolled amounts of bitcoins out of thin air, spend other users' funds, corrupt the network, or anything similar.
+
+						However, powerful miners could arbitrarily choose to block or reverse recent transactions. A majority of users can also put pressure for some changes to be adopted. Because Bitcoin only works correctly with a complete consensus between all users, changing the protocol can be very difficult and requires an overwhelming majority of users to adopt the changes in such a way that remaining users have nearly no choice but to follow. As a general rule, it is hard to imagine why any Bitcoin user would choose to adopt any change that could compromise their own money.</span>
 					</div></li>
-				<li><div class="g_" id="g15">Is Bitcoin legal?
-						<span><p id="title_"></p>.</span>
+				<li><div class="g_" id="g15">Is Bitcoin vulnerable to quantum computing?
+						<span><p id="title_">Is Bitcoin vulnerable to quantum computing?</p>Yes, most systems relying on cryptography in general are, including traditional banking systems. However, quantum computers don't yet exist and probably won't for a while. In the event that quantum computing could be an imminent threat to Bitcoin, the protocol could be upgraded to use post-quantum algorithms. Given the importance that this update would have, it can be safely expected that it would be highly reviewed by developers and adopted by all Bitcoin users.</span>
 					</div></li>
 			</ul>
 		</div><!-- Table -->
