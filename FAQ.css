@@ -5,6 +5,8 @@ h1{
 	text-align: center;
 }
 
+h2{}
+
 h3{
 	font-size: 2em;
 }
@@ -16,7 +18,9 @@ h4{
 	text-align: center;
 	padding: 10px;
 }
-
+h5{
+	font-size: 1.2em;
+}
 h6{
 	margin: 0 auto;
 	font-size: 1.5em;
@@ -26,6 +30,10 @@ h6{
 
 .wrapper{
 	margin-left: 50px;
+}
+
+.descriptions{
+	margin-right: 50px;
 }
 
 .table_{
@@ -94,15 +102,39 @@ ul{
 	padding: 10px;
 	width: 600px;
 }
+
 .g_:hover, .g_:hover span { 
 	visibility: visible;
 	top:250px; left:750px; 
 	color: black;
 	z-index:1;
 }
+
+#p_{
+	color: #646464;
+}
+
 #title_{
 	font-size: 2em;
 	text-align: center;
+}
+
+#_how_{
+	list-style-type: circle;
+	color: #646464;
+	padding: 0px;
+	margin-left: 20px;
+}
+.italic{
+	font-style: italic;
+}
+a:link{
+	color:#2c6fad;
+	text-decoration: none;
+}
+a:visited{
+	color:#2c6fad;
+	text-decoration: none;
 }
 ul li{
 	padding: 5px 0px;

@@ -1,0 +1,51 @@
+
+
+body {
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#img-left {
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px, 10px, 10px, 10px;
+}
+
+#img-right {
+	float: right;
+	margin-right: 10px;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.txt-right {
+	margin: 0 auto;
+}
+
+.txt-right a {
+	margin: 0;
+}
+
+.clear {
+	clear:both;
+}
+
+.blocks {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.acquiring h2 {
+	margin-left: 220px;
+}
+
+#list li {
+	margin-left: 200px;
+	list-style-type: none;
+}
