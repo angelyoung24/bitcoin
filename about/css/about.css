@@ -48,3 +48,16 @@
 	margin-left: 200px;
 	list-style-type: none;
 }
+
+@media all and (max-width: 480px) {
+  #looks{width:80%;}
+  .wrap{width:80%;}
+ }
+@media all and (min-width: 481px) and (max-width: 767px) {
+  #looks{width:80%;}
+  .wrap{width:80%;}
+ }
+ @media all and (min-width: 768px) and (max-width: 900px) {
+  #looks{width:80%;}
+  .wrap{width:80%;}
+ }
