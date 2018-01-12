@@ -1,0 +1,38 @@
+ * {
+
+ }
+
+/*navbar*/
+.navbar {
+  width: 100%;
+  background: gold;
+  animation-name: cool;
+  animation-duration: 10s;
+}
+
+ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+
+
+ul li a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Animation */
+
+@keyframes cool {
+    from {background-color: black;}
+    to {background-color: gold;}
+
