@@ -139,3 +139,18 @@ a:visited{
 ul li{
 	padding: 5px 0px;
 }
+@media all and (max-width: 480px) {
+  img{width:80%;}
+  #looks{width:80%;}
+  .table_{width:80%;}
+ }
+@media all and (min-width: 481px) and (max-width: 767px) {
+  img{width:80%;}
+  #looks{width:80%;}
+  .table_{width:80%;}
+ }
+ @media all and (min-width: 768px) and (max-width: 900px) {
+  img{width:80%;}
+  #looks{width:80%;}
+  .table_{width:80%;}
+ }

@@ -1,6 +1,5 @@
 
-
-body {
+.wrap {
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 50px;
@@ -49,3 +48,16 @@ body {
 	margin-left: 200px;
 	list-style-type: none;
 }
+
+@media all and (max-width: 480px) {
+  #looks{width:80%;}
+  .wrap{width:80%;}
+ }
+@media all and (min-width: 481px) and (max-width: 767px) {
+  #looks{width:80%;}
+  .wrap{width:80%;}
+ }
+ @media all and (min-width: 768px) and (max-width: 900px) {
+  #looks{width:80%;}
+  .wrap{width:80%;}
+ }

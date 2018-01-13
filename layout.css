@@ -22,7 +22,9 @@
   padding: 20px;
 }
 
-
+img{
+  width: 100%;
+}
 
 #this #looks #nice {
   color: #fff;
@@ -36,3 +38,8 @@
 @keyframes cool {
     from {background-color: black;}
     to {background-color: gold;}
+
+@media all and (max-width: 900px) {
+  img{width:80%;}
+  #looks{width:80%;}
+ }
