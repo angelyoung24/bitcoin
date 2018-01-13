@@ -18,9 +18,11 @@ h4{
 	text-align: center;
 	padding: 10px;
 }
+
 h5{
 	font-size: 1.2em;
 }
+
 h6{
 	margin: 0 auto;
 	font-size: 1.5em;
@@ -51,45 +53,59 @@ ul{
 #g1:hover{
 	color: #63a4e1
 }
+
 #g2:hover{
 	color: #63a4e1
 }
+
 #g3:hover{
 	color: #63a4e1
 }
+
 #g4:hover{
 	color: #63a4e1
 }
+
 #g5:hover{
 	color: #63a4e1
 }
+
 #g6:hover{
 	color: #63a4e1
 }
+
 #g7:hover{
 	color: #63a4e1
 }
+
 #g8:hover{
 	color: #63a4e1
 }
+
 #g9:hover{
 	color: #63a4e1
 }
+
 #g10:hover{
 	color: #63a4e1
 }
+
 #g11:hover{
 	color: #63a4e1
 }
+
 #g12:hover{
 	color: #63a4e1
 }
+
 #g13:hover{
 	color: #63a4e1
 }
+
 #g14:hover{
 	color: #63a4e1
 }
+
 #g15:hover{
 	color: #63a4e1
 }
@@ -125,30 +141,37 @@ ul{
 	padding: 0px;
 	margin-left: 20px;
 }
+
 .italic{
 	font-style: italic;
 }
+
 a:link{
 	color:#2c6fad;
 	text-decoration: none;
 }
+
 a:visited{
 	color:#2c6fad;
 	text-decoration: none;
 }
+
 ul li{
 	padding: 5px 0px;
 }
+
 @media all and (max-width: 480px) {
   img{width:80%;}
   #looks{width:80%;}
   .table_{width:80%;}
  }
+
 @media all and (min-width: 481px) and (max-width: 767px) {
   img{width:80%;}
   #looks{width:80%;}
   .table_{width:80%;}
  }
+
  @media all and (min-width: 768px) and (max-width: 900px) {
   img{width:80%;}
   #looks{width:80%;}
